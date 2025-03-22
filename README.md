@@ -12,7 +12,7 @@
 	#	Streamlit UI: Interactive web interface for easy user input and result visualization.
 
 # Table of Contents:
-	#Features
+	# Features:
 	#	Technologies Used
 	#	Folder Structure
 	#	Installation
@@ -60,7 +60,7 @@
 
 
 # Data Preprocessing:
-# Steps Involved
+#Steps Involved:
 	# Load Dataset: Read heart disease dataset using pandas.
 	#	Handle Missing Values: Fill missing values with mean/median or remove rows.
 	#	Normalize Data: Use MinMaxScaler for scaling numeric features.
@@ -70,7 +70,7 @@
 
 
 # Data Visualization:
-# Key Insights are derived using Seaborn & Matplotlib:
+#Key Insights are derived using Seaborn & Matplotlib:
 	#	Statistical Summary: View distributions of key features.
 	#	Correlation Heatmap: Understand feature relationships.
 	#	Histograms & Boxplots: Identify outliers and trends.
@@ -78,23 +78,23 @@
 
 
 # Rule-Based Expert System (Experta):
-# A knowledge-based system applies predefined rules to assess heart disease risk.
+ A knowledge-based system applies predefined rules to assess heart disease risk.
 
 
 # Machine Learning Model (Decision Tree Classifier):
-# A Decision Tree Classifier is trained to predict heart disease risk.
+ A Decision Tree Classifier is trained to predict heart disease risk.
 
 
 # Evaluating Performance
-# The model is evaluated using:
-	# Accuracy
+The model is evaluated using:
+	#       Accuracy
 	#	Precision
 	#	Recall
 	#	F1-score
 
 
 # Performance Comparison:
-# The rule-based system and Decision Tree model are evaluated using:
+The rule-based system and Decision Tree model are evaluated using:
 	#	Validation Set Testing: Assess performance on unseen data.
 	#	Accuracy Comparison: Analyze key metrics.
 	#	Explainability: Understand decision rules vs. machine learning logic.
